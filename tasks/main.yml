@@ -6,6 +6,10 @@
   tags:
     - always
 
+- name: Ubuntu specific setup
+  import_tasks: ubuntu.yml
+  when: ansible_distribution == 'Ubuntu'
+
 - name: Install requested RPM packages
   package:
     name: '{{ item }}'

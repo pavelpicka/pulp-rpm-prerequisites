@@ -1,0 +1,7 @@
+---
+# Specific task for Ubuntu
+
+- name: Add repository contains libmodulemd for Ubuntu
+  apt_repository:
+    repo: 'ppa:directhex/mock-dnf'
+  become: true

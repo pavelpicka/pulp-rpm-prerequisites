@@ -9,10 +9,13 @@ packages:
   - libmagic-dev
   - libglib2.0-dev
   - libcurl4-openssl-dev
+  - libmodulemd2
+  - libmodulemd-2.0-dev
   - libxml2-dev
   - libpython3-dev
   - librpm-dev
   - libssl-dev
   - libsqlite3-dev
   - liblzma-dev
+  - python3-gi
   - zlib1g-dev
